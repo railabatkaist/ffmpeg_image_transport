@@ -89,6 +89,16 @@ public:
     Lock lock(mutex_);
     GOPSize_ = g;
   }
+  void setInputPixelFormat(AVPixelFormat format)
+  {
+    Lock lock(mutex_);
+    pixFormat_ = format;
+  }
+  AVPixelFormat getOutputPixelFormat()
+  {
+    Lock lock(mutex_);
+    return codecContext_->pix_fmt;
+  }
   void setFrameRate(int frames, int second)
   {
     Lock lock(mutex_);
