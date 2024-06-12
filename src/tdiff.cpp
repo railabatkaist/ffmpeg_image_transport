@@ -26,4 +26,4 @@ std::ostream & operator<<(std::ostream & os, const TDiff & td)
   return os;
 }
 
-}  // namespace ffmpeg_image_transport
+}  // namespace raisin_ffmpeg_image_transport

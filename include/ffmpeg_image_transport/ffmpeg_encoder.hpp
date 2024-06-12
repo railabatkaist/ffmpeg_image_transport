@@ -183,5 +183,5 @@ private:
   TDiff tdiffPublish_;
   TDiff tdiffTotal_;
 };
-}  // namespace ffmpeg_image_transport
+}  // namespace raisin_ffmpeg_image_transport
 #endif  // FFMPEG_IMAGE_TRANSPORT__FFMPEG_ENCODER_HPP_

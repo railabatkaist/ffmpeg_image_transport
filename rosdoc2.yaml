@@ -14,7 +14,7 @@ settings:
     generate_package_index: true
 
     ## Point to python sources relative to package.xml file
-    python_source: 'ffmpeg_image_transport'
+    python_source: 'raisin_ffmpeg_image_transport'
 
     ## Don't run doxygen
     always_run_doxygen: false
@@ -35,7 +35,7 @@ settings:
 
 builders:
     - sphinx: {
-        name: 'ffmpeg_image_transport',
+        name: 'raisin_ffmpeg_image_transport',
         ## This path is relative to output staging.
         sphinx_sourcedir: 'doc/',
         output_dir: ''

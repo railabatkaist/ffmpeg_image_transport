@@ -128,4 +128,4 @@ std::vector<enum AVPixelFormat> get_hwframe_transfer_formats(AVBufferRef * hwfra
 }
 
 }  // namespace utils
-}  // namespace ffmpeg_image_transport
+}  // namespace raisin_ffmpeg_image_transport

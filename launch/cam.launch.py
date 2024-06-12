@@ -51,12 +51,12 @@ def generate_launch_description():
             parameters=[
                 params_path,
                 {
-                    'ffmpeg_image_transport.encoding': 'h264_vaapi',
-                    # 'ffmpeg_image_transport.encoding': 'libx264',
-                    # 'ffmpeg_image_transport.encoding': 'hevc_nvenc',
-                    'ffmpeg_image_transport.profile': 'main',
-                    'ffmpeg_image_transport.preset': 'll',
-                    'ffmpeg_image_transport.gop': 15,
+                    'raisin_ffmpeg_image_transport.encoding': 'h264_vaapi',
+                    # 'raisin_ffmpeg_image_transport.encoding': 'libx264',
+                    # 'raisin_ffmpeg_image_transport.encoding': 'hevc_nvenc',
+                    'raisin_ffmpeg_image_transport.profile': 'main',
+                    'raisin_ffmpeg_image_transport.preset': 'll',
+                    'raisin_ffmpeg_image_transport.gop': 15,
                 },
             ],
         )

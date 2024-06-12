@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>ffmpeg_image_transport</name>
+  <name>raisin_ffmpeg_image_transport</name>
   <version>1.0.0</version>
   <description>
     ffmpeg_image_transport provides a plugin to image_transport for

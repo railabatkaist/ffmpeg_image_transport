@@ -41,6 +41,6 @@ private:
 };
 std::ostream & operator<<(std::ostream & os, const TDiff & td);
 
-}  // namespace ffmpeg_image_transport
+}  // namespace raisin_ffmpeg_image_transport
 
 #endif  // FFMPEG_IMAGE_TRANSPORT__TDIFF_HPP_

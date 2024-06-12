@@ -64,5 +64,5 @@ enum AVPixelFormat get_preferred_pixel_format(
   const std::string & encoder, const std::vector<AVPixelFormat> & fmts);
 
 }  // namespace utils
-}  // namespace ffmpeg_image_transport
+}  // namespace raisin_ffmpeg_image_transport
 #endif  // FFMPEG_IMAGE_TRANSPORT__UTILS_HPP_

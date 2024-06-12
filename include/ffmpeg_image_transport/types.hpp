@@ -28,6 +28,6 @@ using ImagePtr = Image::SharedPtr;
 using ImageConstPtr = Image::ConstSharedPtr;
 using FFMPEGPacket = ffmpeg_image_transport_msgs::msg::FFMPEGPacket;
 using FFMPEGPacketConstPtr = FFMPEGPacket::ConstSharedPtr;
-}  // namespace ffmpeg_image_transport
+}  // namespace raisin_ffmpeg_image_transport
 
 #endif  // FFMPEG_IMAGE_TRANSPORT__TYPES_HPP_

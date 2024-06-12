@@ -283,4 +283,4 @@ const std::unordered_map<std::string, std::string> & FFMPEGDecoder::getDefaultEn
 {
   return (defaultMap);
 }
-}  // namespace ffmpeg_image_transport
+}  // namespace raisin_ffmpeg_image_transport

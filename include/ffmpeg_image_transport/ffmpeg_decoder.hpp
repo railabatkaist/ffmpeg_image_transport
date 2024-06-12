@@ -85,6 +85,6 @@ private:
   AVPacket packet_;
   AVBufferRef * hwDeviceContext_{NULL};
 };
-}  // namespace ffmpeg_image_transport
+}  // namespace raisin_ffmpeg_image_transport
 
 #endif  // FFMPEG_IMAGE_TRANSPORT__FFMPEG_DECODER_HPP_

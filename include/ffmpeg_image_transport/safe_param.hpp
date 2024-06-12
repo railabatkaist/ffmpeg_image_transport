@@ -30,6 +30,6 @@ T get_safe_param(rclcpp::Node * n, const std::string name, T def)
   }
   return (n->declare_parameter<T>(name, def));
 }
-}  // namespace ffmpeg_image_transport
+}  // namespace raisin_ffmpeg_image_transport
 
 #endif  // FFMPEG_IMAGE_TRANSPORT__SAFE_PARAM_HPP_

@@ -18,7 +18,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath('.'))
 
-project = 'ffmpeg_image_transport'
+project = 'raisin_ffmpeg_image_transport'
 # copyright = '2024, Bernd Pfrommer'
 author = 'Bernd Pfrommer'
 
